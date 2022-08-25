@@ -1,17 +1,17 @@
 import styled from "styled-components"
-import Button from "./components/styled/Button.styled";
-import LinkLabeledIcon from "./components/styled/LinkLabeledIcon.styled";
+import Hero from "./components/Hero/Hero";
 
 const AppEl = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 100%;
 `
 
 function App() {
     return (
         <AppEl>
-
+            <Hero/>
         </AppEl>
     );
 }

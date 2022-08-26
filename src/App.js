@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import Hero from "./components/Hero/Hero";
+import LogoClouds from "./components/LogoClouds/LogoClouds";
 
 const AppEl = styled.div`
   display: flex;
@@ -12,6 +13,7 @@ function App() {
     return (
         <AppEl>
             <Hero/>
+            <LogoClouds/>
         </AppEl>
     );
 }

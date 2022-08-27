@@ -6,6 +6,7 @@ import Testimonial from "./components/Testimonial/Testimonial";
 import Stats from "./components/Stats/Stats";
 import FeatureS from "./components/Feature/Single/FeatureS";
 import FeatureS2 from "./components/Feature/Single/FeatureS2";
+import CTA from "./components/CTA/CTA";
 
 const AppEl = styled.div`
   display: flex;
@@ -24,6 +25,7 @@ function App() {
             <Stats/>
             <FeatureS/>
             <FeatureS2/>
+            <CTA/>
         </AppEl>
     );
 }

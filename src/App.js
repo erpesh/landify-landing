@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero";
 import LogoClouds from "./components/LogoClouds/LogoClouds";
 import FeatureM from "./components/Feature/Multiple/FeatureM";
 import Testimonial from "./components/Testimonial/Testimonial";
+import Stats from "./components/Stats/Stats";
 
 const AppEl = styled.div`
   display: flex;
@@ -18,6 +19,7 @@ function App() {
             <LogoClouds/>
             <FeatureM/>
             <Testimonial/>
+            <Stats/>
         </AppEl>
     );
 }

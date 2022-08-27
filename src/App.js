@@ -7,6 +7,7 @@ import Stats from "./components/Stats/Stats";
 import FeatureS from "./components/Feature/Single/FeatureS";
 import FeatureS2 from "./components/Feature/Single/FeatureS2";
 import CTA from "./components/CTA/CTA";
+import Footer from "./components/Footer/Footer";
 
 const AppEl = styled.div`
   display: flex;
@@ -26,6 +27,7 @@ function App() {
             <FeatureS/>
             <FeatureS2/>
             <CTA/>
+            <Footer/>
         </AppEl>
     );
 }

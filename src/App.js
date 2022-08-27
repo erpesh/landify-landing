@@ -2,6 +2,7 @@ import styled from "styled-components"
 import Hero from "./components/Hero/Hero";
 import LogoClouds from "./components/LogoClouds/LogoClouds";
 import FeatureM from "./components/Feature/Multiple/FeatureM";
+import Testimonial from "./components/Testimonial/Testimonial";
 
 const AppEl = styled.div`
   display: flex;
@@ -16,6 +17,7 @@ function App() {
             <Hero/>
             <LogoClouds/>
             <FeatureM/>
+            <Testimonial/>
         </AppEl>
     );
 }

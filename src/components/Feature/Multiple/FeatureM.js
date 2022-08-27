@@ -53,6 +53,7 @@ const FeatureMEl = styled.article`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 2rem;
 `
 const SubTitle = styled(Lead)`
   font-family: 'Inter', sans-serif;

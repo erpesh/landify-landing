@@ -5,6 +5,7 @@ import FeatureM from "./components/Feature/Multiple/FeatureM";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Stats from "./components/Stats/Stats";
 import FeatureS from "./components/Feature/Single/FeatureS";
+import FeatureS2 from "./components/Feature/Single/FeatureS2";
 
 const AppEl = styled.div`
   display: flex;
@@ -22,6 +23,7 @@ function App() {
             <Testimonial/>
             <Stats/>
             <FeatureS/>
+            <FeatureS2/>
         </AppEl>
     );
 }

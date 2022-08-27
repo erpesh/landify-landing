@@ -55,8 +55,16 @@ const FeatureMEl = styled.article`
   align-items: center;
 `
 const SubTitle = styled(Lead)`
-  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
 
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off;
+  width: 40%;
 `
 const ItemContainer = styled.div`
   display: grid;

@@ -11,6 +11,7 @@ const FeatureItemEl = styled.span`
 `;
 const Text = styled(Body)`
   text-align: center;
+  width: 85%;
 `
 
 const FeatureItem = ({item}) => {

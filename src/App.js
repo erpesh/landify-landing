@@ -4,6 +4,7 @@ import LogoClouds from "./components/LogoClouds/LogoClouds";
 import FeatureM from "./components/Feature/Multiple/FeatureM";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Stats from "./components/Stats/Stats";
+import FeatureS from "./components/Feature/Single/FeatureS";
 
 const AppEl = styled.div`
   display: flex;
@@ -20,6 +21,7 @@ function App() {
             <FeatureM/>
             <Testimonial/>
             <Stats/>
+            <FeatureS/>
         </AppEl>
     );
 }

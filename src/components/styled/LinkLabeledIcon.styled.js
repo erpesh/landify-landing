@@ -9,6 +9,10 @@ const LinkLabeledIconEl = styled.a`
   display: flex;
   align-items: center;
   color: ${Colors.Brand.Purple};
+  
+  :visited {
+    color: ${Colors.Brand.Purple};
+  }
 
   ${props => {
     switch (props.size) {
